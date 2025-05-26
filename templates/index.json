@@ -9,6 +9,26 @@
  */
 {
   "sections": {
+    "featured_collection_KF4RDW": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "color_scheme": "scheme-05856d37-26e4-4fea-ac35-0cfc0e93c7d4",
+        "subtitle": "НАШІ БЕСТСЕЛЕРИ",
+        "heading": "Найбільш обиране серед покупців",
+        "button_label": "Обрати з улюбленого",
+        "button_link": "shopify://collections/sharobella-test",
+        "button_border": "linear-gradient(251.18deg, rgba(177, 109, 27, 1) 13.03%, rgba(231, 173, 103, 1) 51.56%, rgba(183, 127, 40, 1) 86.29%)",
+        "collection": "sharobella-test",
+        "products_to_show": 4.4,
+        "enable_border_bottom": true,
+        "border_bottom_color": "#c6b081",
+        "padding_top_desktop": 72,
+        "padding_bottom_desktop": 112,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 48
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -47,27 +67,10 @@
         "mobile_content_alignment": "center",
         "show_text_below": false
       }
-    },
-    "featured_collection_KF4RDW": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "color_scheme": "scheme-05856d37-26e4-4fea-ac35-0cfc0e93c7d4",
-        "subtitle": "НАШІ БЕСТСЕЛЕРИ",
-        "heading": "Найбільш обиране серед покупців",
-        "button_label": "Обрати з улюбленого",
-        "button_link": "shopify://collections",
-        "collection": "сhocolate",
-        "products_to_show": 4.4,
-        "padding_top_desktop": 72,
-        "padding_bottom_desktop": 112,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 48
-      }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection_KF4RDW"
+    "featured_collection_KF4RDW",
+    "image_banner"
   ]
 }
