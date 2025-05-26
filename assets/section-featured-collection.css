@@ -138,7 +138,7 @@
   position: relative;
 }
 
-.featured-collection__button-wrapper .featured-collection__button :after {
+.featured-collection__button-wrapper .featured-collection__button:after {
   content: "";
   width: 30px;
   height: 30px;
@@ -151,7 +151,7 @@
   border-top: 2px solid #d60505;
 }
 
-.featured-collection__button-wrapper .featured-collection__button {
+.featured-collection__button-wrapper .featured-collection__button:before {
   content: "";
   width: 30px;
   height: 30px;
