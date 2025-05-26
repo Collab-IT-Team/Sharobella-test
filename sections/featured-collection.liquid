@@ -41,13 +41,14 @@
     </div>
     <div class="featured-collection__slider-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       {% assign skip_assets = false %}
+      {%- assign products_limit = section.settings.products_limit -%}
       {%- if section.settings.collection.products.size > 0 -%}
         <featured-collection-slider
           class="featured-collection__slider swiper"
           data-products-to-show="{{ section.settings.products_to_show }}"
         >
           <div class="swiper-wrapper">
-            {%- for product in section.settings.collection.products -%}
+            {%- for product in section.settings.collection.products limit: products_limit -%}
               <div class="swiper-slide">
                 {% render 'custom-product-card', card_product: product, skip_assets: skip_assets %}
               </div>
@@ -149,6 +150,15 @@
       "step": 0.1,
       "default": 4.3,
       "label": "t:sections.featured-collection.settings.products_to_show.label"
+    },
+    {
+      "type": "range",
+      "id": "products_limit",
+      "min": 1,
+      "max": 50,
+      "step": 1,
+      "default": 6,
+      "label": "t:sections.featured-collection.settings.products_limit.label"
     },
     {
       "type": "header",

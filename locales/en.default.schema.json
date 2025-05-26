@@ -795,6 +795,9 @@
         "products_to_show": {
           "label": "Product count"
         },
+        "products_limit": {
+          "label": "Limiting the amount of products"
+        },
         "header__3": {
           "content": "Border bottom"
         },
