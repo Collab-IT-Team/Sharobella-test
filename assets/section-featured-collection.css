@@ -138,28 +138,3 @@
   position: relative;
 }
 
-.featured-collection__button-wrapper .featured-collection__button:after {
-  content: "";
-  width: 30px;
-  height: 30px;
-  display: block;
-  position: absolute;
-  left: -15px;
-  bottom: -18px;
-  background-color: #fff;
-  transform: rotate(45deg);
-  border-top: 2px solid #d60505;
-}
-
-.featured-collection__button-wrapper .featured-collection__button:before {
-  content: "";
-  width: 30px;
-  height: 30px;
-  display: block;
-  position: absolute;
-  right: -15px;
-  top: -18px;
-  background-color: #fff;
-  transform: rotate(-135deg);
-  border-top: 2px solid #d60505;
-}
