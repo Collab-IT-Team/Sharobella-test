@@ -74,8 +74,10 @@
           {% endif %}
           class="featured-collection__button full-unstyled-link"
         >
-          {{ section.settings.button_label | escape }}
-          {{- 'slider-arrow-next.svg' | inline_asset_content -}}
+          <span>
+            {{ section.settings.button_label | escape }}
+            {{- 'slider-arrow-next.svg' | inline_asset_content -}}
+          </span>
         </a>
       {%- endif -%}
     </div>
@@ -126,7 +128,7 @@
       "label": "t:sections.featured-collection.settings.button_link.label"
     },
     {
-      "type": "color_background",
+      "type": "color",
       "id": "button_border",
       "label": "t:sections.featured-collection.settings.button_border.label",
       "default": "linear-gradient(251.18deg, #B16D1B 13.03%, #E7AD67 51.56%, #B77F28 86.29%)"

@@ -18,7 +18,7 @@
         "heading": "Найбільш обиране серед покупців",
         "button_label": "Обрати з улюбленого",
         "button_link": "shopify://collections/sharobella-test",
-        "button_border": "linear-gradient(251.18deg, rgba(177, 109, 27, 1) 13.03%, rgba(231, 173, 103, 1) 51.56%, rgba(183, 127, 40, 1) 86.29%)",
+        "button_border": "#B16D1B",
         "collection": "sharobella-test",
         "products_to_show": 4.4,
         "enable_border_bottom": true,

@@ -874,7 +874,6 @@ summary::-webkit-details-marker {
   line-height: 2.4rem;
   letter-spacing: 0.2rem;
   color: rgba(var(--color-subtitle));
-  text-transform: uppercase;
 }
 
 @media screen and (max-width: 749px) {

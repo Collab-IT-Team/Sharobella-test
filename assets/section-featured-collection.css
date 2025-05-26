@@ -123,18 +123,31 @@
     var(--slant) 100%,
     0 calc(100% - var(--slant)),
     0 var(--slant)
-  ); */
+  );
+  border: 1px solid transparent; */
 
+
+  color: rgb(var(--color-button-text));
+  background-color: rgba(var(--color-button), 0.14);
+  border-image: var(--btn-border-color);
+  border-image-slice: 1;
+  white-space: nowrap;
+  position: relative;
+  background: #000;
+  background: linear-gradient(135deg, transparent 10px, var(--btn-border-color) 0) top left, linear-gradient(225deg, transparent 10px, var(--btn-border-color) 0) top right, linear-gradient(315deg, transparent 10px, var(--btn-border-color) 0) bottom right, linear-gradient(45deg, transparent 10px, var(--btn-border-color) 0) bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  padding: .5px;
+}
+
+.featured-collection__button-wrapper .featured-collection__button span{
+  background: #e1e1e1;
+  background: linear-gradient(135deg, transparent 10px, #f3eee6 0) .5px .5px, linear-gradient(225deg, transparent 10px, #f3eee6 0) calc(100% - 0.5px) .5px, linear-gradient(315deg, transparent 10px, #f3eee6 0) calc(100% - 0.5px) calc(100% - 0.5px), linear-gradient(45deg, transparent 10px, #f3eee6 0) 0.5px calc(100% - 0.5px);
+  background-size: 50% 50%;
+  padding: 16px 48px;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   gap: 21px;
-  color: rgb(var(--color-button-text));
-  background-color: rgba(var(--color-button), 0.14);
-  border: 1px solid transparent;
-  border-image: var(--btn-border-color);
-  border-image-slice: 1;
-  padding: 16px 48px;
-  white-space: nowrap;
-  position: relative;
 }
 
