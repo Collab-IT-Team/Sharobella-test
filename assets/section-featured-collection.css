@@ -142,7 +142,7 @@
 
 .featured-collection__button-wrapper .featured-collection__button span{
   background: #e1e1e1;
-  background: linear-gradient(135deg, transparent 9.5px, #f3eee6 0) .5px .5px, linear-gradient(225deg, transparent 9.5px, #f3eee6 0) calc(100% - 0.5px) .5px, linear-gradient(315deg, transparent 9.5px, #f3eee6 0) calc(100% - 0.5px) calc(100% - 0.5px), linear-gradient(45deg, transparent 9.5px, #f3eee6 0) 0.5px calc(100% - 0.5px);
+  background: linear-gradient(135deg, transparent 9.8px, #f3eee6 0) .5px .5px, linear-gradient(225deg, transparent 9.8px, #f3eee6 0) calc(100% - 0.5px) .5px, linear-gradient(315deg, transparent 9.8px, #f3eee6 0) calc(100% - 0.5px) calc(100% - 0.5px), linear-gradient(45deg, transparent 9.8px, #f3eee6 0) 0.5px calc(100% - 0.5px);
   background-size: 50% 50%;
   padding: 16px 48px;
   background-repeat: no-repeat;
